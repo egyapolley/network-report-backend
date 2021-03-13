@@ -1,0 +1,6 @@
+{
+  "jwtPrivateKey": "unsecureKey",
+  "db": "mongodb://localhost/network-report",
+  "port": "4000",
+  "host": "localhost"
+}
