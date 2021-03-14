@@ -4,7 +4,7 @@ const router = express.Router();
 const User = require("../models/users");
 const validate = require("../validators");
 const auth = require("../middlewares/auth");
-const moment = require("moment")
+const moment = require("moment");
 
 const db = require("../mysql-db/dbcon");
 
@@ -66,7 +66,6 @@ router.post("/users", async (req, res) => {
     }
 
 })
-
 router.post("/login", async (req, res) => {
     const {error} = validate.UserRegister(req.body)
     if (error) return res.status(400).send(error.message);
