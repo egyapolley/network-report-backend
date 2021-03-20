@@ -40,8 +40,8 @@ const mme_Counters = {
     MaxNbrOfRegisteredUE: "Max Number_Registered_UEs",
     AveNbrOfIdleUE: "Max Number_Idle_UEs",
     MaxNbrOfIdleUE: "Avg Number_Idle_UEs",
-    AveConnectedUE: "Max Number_Connected_UEs",
-    MaxConnectedUE: "Avg Number_Connected_UEs"
+    AveNbrOfConnectedUE: "Max Number_Connected_UEs",
+    MaxNbrOfConnectedUE: "Avg Number_Connected_UEs"
 };
 const mme_FormulaCounters = ["VS_UE_attach_succ_rate_SFL", "VS_paging_all_rsp_rate_copy_1", "VS_paging_all_rsp",
     "VS_UE_TAU_IaMME_all_succ_rate", "VS_UE_TAU_IaMME_all_succ", "VS_UE_TAU_IaMME_all_req"];
